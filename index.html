@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+<head>
+    <title>Technical documentation page (Part 1)!</title> 
+    <style>
+        body{
+            display: flex;
+            gap:15px;
+        }
+        .container{
+            width: 150%;
+            height:90%;
+            border:6px solid rgb(117, 69, 201);           
+        }
+        .def{
+            flex:1;
+            border:4px solid black;
+            padding:10px;
+   
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">>
+        <ol>  
+            <a href="#txt1">
+            <li>what is HTML?</li></a> 
+            <a href="#txt2">
+            <li>What is a basic structure of an HTML document?</li></a>
+            <a href="#txt3">
+            <li>What are the tags/elements that you've learned so far?</li></a>
+            <ol>
+            <a href="#txt4">
+            <li>How are they written?</li>
+            </a>
+            <a href="#txt5">
+            <li>What are their important attributes?</li>
+            </a>
+            <a href="#txt6">
+            <li>How can they be used</li>
+            </a>
+            </ol>
+                </ol>
+                </div>
+    <div class="def">
+    <h2 id="txt1" >what is html? </h2>
+    <p>HTML stands for Hyper Text Markup Language and the standard markup language for creating Web pages,describes the structure of a Web page and  consists of a series of elements and is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables</p> <hr>
+   
+    <h2 id="txt2">What is a basic structure of an HTML document?</h2>
+    <pre>The basic structure of an HTML document contain of 5 elements:
+<b>&lt!DOCTYPE&gt:</b>tells the web browser which version of HTML the page is written in.
+<b>&lthtml&gt:</b>following the DOCTYPE declaration. 
+<b>&lthead&gt:</b>element surrounds all the special behind the scenes elements of a web document.
+<b>&lttitle&gt:</b>defines what text will show in the web browser’s title bar.
+<b>&ltbody&gt:</b>:element surrounds all the actual content (text, images, videos, links, etc.) that will   be displayed on our web page.
+</pre> <hr>
+    <h2 id="txt3">What are the tags/elements that you've learned so far?</h2>
+<pre> An HTML element is defined by a start tag, some content, and an end tag.
+<b>&lt tagnamename&gt cotent &lt/tagname &gt</b>
+</pre><hr>
+    <h2 id="txt4" >How are they written?</h2>
+    <p> HTML elements can be nested (this means that elements can contain other elements).<span>An HTML tag is a special word or letter surrounded by angle brackets, You use tags to create HTML elements , such as paragraphs or links</span>. Many elements have an opening tag and a closing tag — for example, a p (paragraph) element has a tag, followed by the paragraph text, followed by a closing tag 
+    </p><hr> 
+    <h2 id="txt5">What are their important attributes?</h2>
+    <pre>All HTML elements can have attributes and provide extra information about elements.they are always specified in the start tag and usually come in name/value pairs like:name="value".
+     
+<b>The href Attribute</b>
+<b>The src Attribute</b>
+<b>The alt Attribute</b>
+<b>The width and height Attributes</b>
+</pre><hr>
+   <h2 id="txt6">How can they be used</h2>
+    <pre id="txt6">
+<b>The href Attribute:</b>The &lt a &gt tag defines a hyperlink.
+<b>The src Attribute:</b>The <img> tag is used to embed an image in an HTML page. The src(source) attribute specifies the path to the image to be displayed
+<b>The alt Attribute:</b>The required alt attribute for the img tag specifies 
+an alternate text for an image, if the image for some reason cannot be displayed.This can be due to slow connection, or an error in the src attribute, or if the user uses a screen reader
+<b>The width and height Attributes :</b>The <img> tag should also contain the width and height attributes, which specifies the width and height of the image (in pixels) 
+<b>The title Attribute:</b>The title attribute defines some extra information about an element.</pre>
+</div>
+</body>
+</html>
+    
