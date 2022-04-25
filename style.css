@@ -9,8 +9,10 @@ body{
     background-color: rgb(228, 212, 236);          
 }
 a{
-    text-decoration: none;
+    text-decoration:none;
     color:black;
+    word-spacing: 0.5px;
+    text-transform: capitalize;
 }
 ol{
     padding-left: 20px;
